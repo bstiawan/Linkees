@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^4.1.17",
     "node": "^14.4.0",
-    "react": "^17.0.2",
+    "react": "",
     "react-dom": "^16.13.1",
     "react-scripts": "^5.0.1",
     "linkees": "1.0.0"
