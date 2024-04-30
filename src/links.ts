@@ -36,4 +36,12 @@ export const LINKS: IObjectKeys = {
       link: 'https://stiawan.notion.site/Social-Media-Management-Quote-ec2610e9828b4d97aca76daa97dda23b?pvs=4',
     },
   ],
+  'My Villa Management': [
+    {
+      title: 'Umalas Villa - Boris',
+      subtitle: 'Photo preview and downloads.',
+      type: CHANNEL_TYPES.PHOTOS,
+      link: 'https://photos.app.goo.gl/3K6qnmVvZywmk96q8',
+    },
+  ],
 };
