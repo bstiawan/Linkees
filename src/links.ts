@@ -10,7 +10,7 @@ export const LINKS: IObjectKeys = {
   '': [],
   default: [
     {
-      title: 'Website',
+      title: 'Portfolio',
       subtitle: 'See more examples of our work.',
       type: CHANNEL_TYPES.STIAWAN,
       link: 'https://www.stiawan.com/photography',
