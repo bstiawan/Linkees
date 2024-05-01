@@ -10,6 +10,7 @@ import twitter from '../assets/twitter.png';
 import stiawan from '../assets/stiawan.png';
 import quote from '../assets/quote.png';
 import proposal from '../assets/proposal.png';
+import loading from '../assets/loading.gif';
 
 import { CHANNEL_TYPES } from '../constants';
 
@@ -19,6 +20,7 @@ export const CHANNEL_TYPE_VS_COVER_IMAGE = {
   [CHANNEL_TYPES.LINKEDIN]: linkedin,
   [CHANNEL_TYPES.YOUTUBE]: youtube,
   [CHANNEL_TYPES.DRIBBLE]: dribbble,
+  [CHANNEL_TYPES.LOADING]: loading,
   [CHANNEL_TYPES.PHOTOS]: photos,
   [CHANNEL_TYPES.GITHUB]: github,
   [CHANNEL_TYPES.TELEGRAM]: telegram,

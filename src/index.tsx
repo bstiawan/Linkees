@@ -35,12 +35,29 @@ const App = () => {
         console.error('Failed to fetch links:', err);
         setError(err.toString());
       })
+      // Timeout 5 seconds
+      // .then(() => new Promise(resolve => setTimeout(resolve, 5000)))
       .finally(() => setLoading(false));
   }, [name]);
 
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  const loadingItem = [{
+    title: 'Loading...',
+    subtitle: 'Please wait.',
+    link: '',
+    type: 'LOADING',
+  }];
+
+  // if (loading) {
+  //   return (
+  //     <React.StrictMode>
+  //       <Linkees
+  //         cardItems={loadingItem}
+  //         name={name}
+  //         headerAvatar="https://s3.us-east-2.amazonaws.com/www.stiawan.com/files/IMG_1212t.png"
+  //       />
+  //     </React.StrictMode>
+  //   );
+  // }
 
   if (error) {
     return <div>Error: {error}</div>;
@@ -49,7 +66,7 @@ const App = () => {
   return (
     <React.StrictMode>
       <Linkees
-        cardItems={items}
+        cardItems={loading ? loadingItem : items}
         name={name}
         headerAvatar="https://s3.us-east-2.amazonaws.com/www.stiawan.com/files/IMG_1212t.png"
       />
