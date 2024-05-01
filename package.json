@@ -7,11 +7,11 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "framer-motion": "^4.1.17",
+    "linkees": "1.0.0",
     "node": "^14.4.0",
-    "react": "",
+    "react": "^15.3.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^5.0.1",
-    "linkees": "1.0.0"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

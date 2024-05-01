@@ -6,6 +6,21 @@ interface IObjectKeys {
   [key: string]: ItemType[];
 }
 
+fetch('https://raw.githubusercontent.com/bstiawan/Linkees/master/links.json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json(); // Parsing the JSON in the response
+  })
+  .then(data => {
+    console.log(data); // Handle the JSON data here
+  })
+  .catch(error => {
+    console.error('There was a problem with your fetch operation:', error);
+  });
+
+
 export const LINKS: IObjectKeys = {
   '': [],
   default: [
