@@ -47,18 +47,6 @@ const App = () => {
     type: 'LOADING',
   }];
 
-  // if (loading) {
-  //   return (
-  //     <React.StrictMode>
-  //       <Linkees
-  //         cardItems={loadingItem}
-  //         name={name}
-  //         headerAvatar="https://s3.us-east-2.amazonaws.com/www.stiawan.com/files/IMG_1212t.png"
-  //       />
-  //     </React.StrictMode>
-  //   );
-  // }
-
   if (error) {
     return <div>Error: {error}</div>;
   }
