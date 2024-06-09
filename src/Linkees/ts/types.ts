@@ -4,6 +4,7 @@ export type ThemeType = 'dark' | 'light';
 
 export type KnownChannelTypes =
   | typeof CHANNEL_TYPES.DRIBBLE
+  | typeof CHANNEL_TYPES.LOADING
   | typeof CHANNEL_TYPES.PHOTOS
   | typeof CHANNEL_TYPES.GITHUB
   | typeof CHANNEL_TYPES.INSTAGRAM

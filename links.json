@@ -1,0 +1,47 @@
+{
+  "": [],
+  "default": [
+    {
+      "title": "Portfolio",
+      "subtitle": "See more examples of our work.",
+      "type": "STIAWAN",
+      "link": "https://www.stiawan.com/photography"
+    },
+    {
+      "title": "Instagram",
+      "subtitle": "Follow our updates.",
+      "type": "INSTAGRAM",
+      "link": "https://www.instagram.com/stiawandotcom"
+    }
+  ],
+  "Rate Card": [
+    {
+      "title": "Rate Card",
+      "subtitle": "Here is my standard photography rate.",
+      "type": "QUOTE",
+      "link": "https://stiawan.notion.site/Property-Photography-Rate-Card-434d289b37b2481e98ee591a1bf05e14?pvs=4"
+    }
+  ],
+  "The Royal Kitchen": [
+    {
+      "title": "Proposal",
+      "subtitle": "Here is my proposal for you.",
+      "type": "PROPOSAL",
+      "link": "https://www.canva.com/design/DAFt316vkNM/mEuh6OKRUXYnvQn97okQSw/view?website#2"
+    },
+    {
+      "title": "Quote",
+      "subtitle": "Here is the proposed cost for the project.",
+      "type": "QUOTE",
+      "link": "https://stiawan.notion.site/Social-Media-Management-Quote-ec2610e9828b4d97aca76daa97dda23b?pvs=4"
+    }
+  ],
+  "My Villa Management": [
+    {
+      "title": "Umalas Villa - Boris",
+      "subtitle": "Photo preview and downloads.",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/3K6qnmVvZywmk96q8"
+    }
+  ]
+}

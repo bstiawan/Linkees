@@ -1,5 +1,3 @@
-import { CHANNEL_TYPES } from './Linkees/index';
-
 import { ItemType } from '../src/Linkees/ts';
 
 interface IObjectKeys {
