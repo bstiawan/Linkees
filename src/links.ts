@@ -44,4 +44,12 @@ export const LINKS: IObjectKeys = {
       link: 'https://photos.app.goo.gl/3K6qnmVvZywmk96q8',
     },
   ],
+  'Inspiral Architect': [
+    {
+      title: 'Krysnalaya - Ryan',
+      subtitle: 'Photo preview and downloads.',
+      type: CHANNEL_TYPES.PHOTOS,
+      link: 'https://photos.app.goo.gl/C2HPt1DPtSpWLB7e6',
+    },
+  ],
 };
