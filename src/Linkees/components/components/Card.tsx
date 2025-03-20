@@ -32,9 +32,9 @@ function Card(props: ICard): JSX.Element {
       if (!props.isDefault) {
         setIsLoading(true);
         setImageError(false);
-        const ogImage = await getOpenGraphImage(props.link);
-        if (ogImage) {
-          setImageUrl(ogImage);
+        const base64Image = await getOpenGraphImage(props.link);
+        if (base64Image) {
+          setImageUrl(base64Image);
         } else {
           setImageUrl(props.cover);
         }
@@ -44,11 +44,8 @@ function Card(props: ICard): JSX.Element {
       }
     };
 
-    // Reset states when props change
-    setImageError(false);
-    setIsLoading(true);
     fetchOpenGraphImage();
-  }, [props.link, props.isDefault, props.cover, props.title]);
+  }, [props.link, props.isDefault, props.cover]);
 
   const handleImageError = () => {
     setImageError(true);
