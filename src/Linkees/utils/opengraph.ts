@@ -78,12 +78,7 @@ export async function getOpenGraphImage(url: string): Promise<string | null> {
       };
 
       // Try each possible image source in order
-      const imageSources = [
-        data.data.image?.url,
-        data.data.og?.image?.url,
-        data.data.screenshot?.url,
-        data.data.logo?.url,
-      ].filter(Boolean); // Remove null/undefined values
+      const imageSources = [data.data.image?.url, data.data.og?.image?.url].filter(Boolean); // Remove null/undefined values
 
       for (const imageUrl of imageSources) {
         const base64Image = await getBase64Image(imageUrl);
