@@ -94,6 +94,11 @@ p {
   object-fit: cover;
   border-radius: 8px;
   height: 94px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cover.loading {
+  opacity: 0.5;
 }
 
 .Footer {

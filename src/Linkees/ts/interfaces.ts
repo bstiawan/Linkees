@@ -7,4 +7,5 @@ export interface ICard {
   subtitle: string;
   link: string;
   cover: string;
+  isDefault?: boolean;
 }
