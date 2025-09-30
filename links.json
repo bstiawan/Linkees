@@ -121,5 +121,55 @@
       "type": "PHOTOS",
       "link": "https://photos.app.goo.gl/r1c6yJNccRmjL4H37"
     }
+  ],
+  "Dane Wilson": [
+    {
+      "title": "Villa Canggu Padang Linjong",
+      "subtitle": "8 Dec 2023",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/DTsdiKhin5QBXVps7"
+    },
+    {
+      "title": "Villa Canggu Padang Linjong - Sunset",
+      "subtitle": "8 Feb 2024",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/LGuURiLobcTGNUJo6"
+    },
+    {
+      "title": "Villa Balian",
+      "subtitle": "19 Mar 2024",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/Ks5c8zjPfRwwekYY6"
+    },
+    {
+      "title": "Villa Balian - Day",
+      "subtitle": "5 Apr 2024",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/TxZG1q2wUkqY88qSA"
+    },
+    {
+      "title": "Villa Padang Linjong 1",
+      "subtitle": "28 Sep 2025",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/XNxt24TYpM1ubMV4A"
+    },
+    {
+      "title": "Villa Padang Linjong 2",
+      "subtitle": "28 Sep 2025",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/mkzmaxi55gVhJYtx7"
+    },
+    {
+      "title": "Villa Padang Linjong 3",
+      "subtitle": "28 Sep 2025",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/xG5nLKS1YaCXSxNC8"
+    },
+    {
+      "title": "Villa Balian",
+      "subtitle": "28 Sep 2025",
+      "type": "PHOTOS",
+      "link": "https://photos.app.goo.gl/gosPEs2tSwbdhEe57"
+    }
   ]
 }
