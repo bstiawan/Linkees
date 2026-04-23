@@ -56,7 +56,7 @@ const App = () => {
       <Linkees
         cardItems={loading ? loadingItem : items}
         name={name}
-        headerAvatar="https://s3.us-east-2.amazonaws.com/www.stiawan.com/files/IMG_1212t.png"
+        headerAvatar="android-chrome-512x512.png"
       />
     </React.StrictMode>
   );
